@@ -1,0 +1,12 @@
+apiVersion: "1.0.1"
+
+http:
+  port: 8080
+
+postgres:
+  host: "localhost"
+  port: "5437"
+  username: "postgres"
+  password: "password"
+  db-name: "postgres"
+  ssl-mode: "disable"
